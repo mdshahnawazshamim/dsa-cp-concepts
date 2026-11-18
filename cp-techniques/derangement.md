@@ -2,10 +2,6 @@
 
 A **derangement** is a permutation `p` of `0, 1, ..., n-1` in which no index stays in its original position:
 
-\[
- p[i] \ne i \quad \text{for every } i.
-\]
-
 Example: `p = {1, 2, 0}` is a derangement; `p = {1, 0, 2}` is not because index `2` is a fixed point.
 
 > In CP, problems may ask for a derangement directly or hide the idea inside assignment, rearrangement, or permutation constraints. The patterns below are related, but not all are strict mathematical derangements.
